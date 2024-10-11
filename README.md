@@ -1,0 +1,2 @@
+##arXiv or bioRxiv
+I have written some important latex command while learning from Coursera account. Here I am using format like arXiv or bioRxiv.The paper format you would typically use for preprints on platforms like arXiv or bioRxiv is often referred to as academic or research paper format. This format includes several key elements commonly found in scholarly articles. 
