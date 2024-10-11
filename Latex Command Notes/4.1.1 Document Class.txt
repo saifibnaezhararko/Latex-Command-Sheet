@@ -1,0 +1,55 @@
+List of commands:
+
+1) At the top of the template you will notice \documentclass{article}. A wide variety of classes have been implemented and are 
+available online. A small list of some of the major ones are as follows: 
+
+article - for articles in scientific journals, presentations, short reports, program documentation, etc...
+IEEEtran - for articles with the IEEE Transactions format.
+report - for longer reports containing several chapters, small books, thesis, etc...
+book - for real books
+slides - for slides.
+letter - for writing letters.
+
+2) In addition to the predefined formatting within a class, the user has the ability to define certain options specific to 
+their document. Class option are to be inserted in between square brackets, [], before the curly braces, {}, that define 
+the class to be used. Multiple options are to be separated by a comma.
+
+\documentclass[option1,option2,......]{article}
+
+We can define :
+a.10pt, 11pt, 12pt - Sets the size of the main font in the document. [If no option is specified, 10pt is 
+assumed.]
+
+b.a4paper, letterpaper, etc... - Defines the paper size. The default size is letterpaper,a5paper, b5paper, executivepaper, 
+and legalpaper can be specified.
+
+c.fleqn[The full form of fleqn is "flush left equations"]-Typesets displayed formulas left-aligned instead of centered.
+d.leqno[leqno stands for "left equation number"]-Places the numbering of formulas on the left hand side instead of the right.
+
+e.titlepage, notitlepage - Specifies whether a new page should be started after the document title or not. The article class
+does not start a new page by default, while report and book do.
+
+f.onecolumn, twocolumn - Instructs LaTeX to typeset the document in one column or two columns.
+
+g.twoside, oneside - Specifies whether double or single sided output should be generated. - oneside:Formats all pages with 
+the same layout, typically for single-sided printing and twoside: Adjusts margins for odd (right) and even (left) pages, 
+ideal for double-sided printing like in books.
+
+h.landscape:-Changes the layout of the document to print in landscape mode.
+
+i.openright, openany
+
+j.draft
+
+Examples of Document Classes
+\documentclass{letter}
+\documentclass{article}
+Examples of Document-Class-Options
+\documentclass[option1, option2, etc.]{article}
+\documentclass[12pt,twocolumn,letterpaper]{article}
+Font size [10pt, 11pt, 12pt]
+Paper size and format [a4paper, letterpaper]
+
+
+
+
