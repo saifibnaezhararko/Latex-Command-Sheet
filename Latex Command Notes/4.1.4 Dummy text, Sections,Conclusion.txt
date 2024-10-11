@@ -1,0 +1,28 @@
+Dummy text
+
+You may notice \lipsum[generates random text] is used to create random chunks of text. The number within the brackets indicates what specific 
+dummy paragraph to use. There are 150 possible, so the maximum value allowed in the brackets is 150.
+
+
+
+Sections
+
+\section{section name} - This will help you to create sections in the template. We don’t need to do anything to modify the 
+text, it will automatically bold the text and number the sections (1, 2, 3 etc.).
+
+\subsection{subsubsection name} - This will help you to create subsections. These headings will be one level down from the 
+section headings and will be numbered like 1.1, 1.2.
+
+\subsubsection{subsubsection name} - This will help you to create sections one level down from subsections. These heading 
+will be numbered like 1.1.1, 1.1.2.
+
+We can specify if you want sections to be not be numbered when using an asterisks * between the command name and the 
+brackets section*{}.
+The \paragraph{} command works similarly, but without numbering.
+
+
+Equations
+
+It can be very helpful to include a mathematical equation. To do so we need to use our handy \begin{equation} 
+and \end{equation} functions to indicate the boundaries.
+\begin{equation} x^{5n} +y^n=z^n \end{equation}

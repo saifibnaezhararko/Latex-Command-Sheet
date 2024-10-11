@@ -1,0 +1,32 @@
+how to bold font using \textbf{bold text}.
+
+As we scroll down the template, we next see the \title{Your title here} command that we previously worked with when we 
+modified the text within the brackets to change the title.
+
+Then we see the \author command, which adds authors to the paper. These will be formatted in the way that is shown on the 
+template. When you see \\ two backslashes, this indicates that the line is finished and a new one is to be made. For tables 
+or formatting like the authors, it should work well, [but it is best to avoid using this for line breaks within the 
+paragraphs that you might include in the paper.]
+
+  \author{
+   Ziyue Qi \\
+   School of Coumputing and Information\\
+   University of Pittsburgh\\
+   Pittsburgh, PA 15213 \\
+   \texttt{ziq2@pitt.edu} \\
+   We also see another command \textttt{change the font to typewriter font} used within the \author{} command to change the 
+   text to typewriter font.
+   %% we can write command using percentage sign.
+
+   \And allows for additional authors to be added. It must be used between each author listing.
+
+
+
+The command \begin{document} enables us to format text for the body of the article. This command comes directly after the 
+author section. It will be paired with \end{document} that you will see at the bottom of the template if you scroll down.
+
+The \maketitle will add the title the page where the begin{document} command was used. If it is placed before 
+begin{document}, the title and authors will show up on a separate page.
+
+The abstract section can be distinguished using the begin{} and end{} functions just like we used for the body of the 
+document. These two commands will also be used later to indicate that a specific part of the document has started or ended.
