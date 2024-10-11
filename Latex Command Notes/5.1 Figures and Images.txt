@@ -1,0 +1,26 @@
+Add figure:
+
+\subsection{Figures}
+\lipsum[10] 
+See Figure \ref{fig:fig1}. Here is how you add footnotes. \footnote{Sample of the first footnote.}
+\lipsum[11] 
+
+\begin{figure}
+  \centering
+  \fbox{\rule[-.5cm]{4cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
+  \caption{Sample figure caption.}
+  \label{fig:fig1}
+\end{figure}
+
+
+Add images to latex file:
+
+\begin{figure} % picture
+  \centering
+  \includegraphics{new.png}
+\end{figure}
+
+
+
+
+

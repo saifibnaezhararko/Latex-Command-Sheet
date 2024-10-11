@@ -1,0 +1,27 @@
+Add table:
+\begin{table}
+ \caption{Sample table title}
+  \centering    %%This command centers the table on the page.
+
+  \begin{tabular}{lll} %%indicates that the table will have three columns
+    \toprule           %% This command, provided by the booktabs package, creates a top horizontal line that is thicker
+                       %% than the standard line
+
+    \multicolumn{2}{c}{Part}   %% merges two columns into one for the header "Part." the merged cells span 2 columns, 
+			       %% are centered (c), and contain the text "Part."             
+                    \\
+
+    \cmidrule(r){1-2}  %%draw partial horizontal line below the merged header,indicates column number and r for right allign
+    Name     & Description     & Size ($\mu$m) \\
+    
+    \midrule
+    Dendrite & Input terminal  & $\sim$100     \\
+    \midrule
+    Axon     & Output terminal & $\sim$10      \\
+    \midrule
+    Soma     & Cell body       & up to $10^6$  \\
+    \bottomrule
+  \end{tabular}
+
+  \label{tab:table}
+\end{table}

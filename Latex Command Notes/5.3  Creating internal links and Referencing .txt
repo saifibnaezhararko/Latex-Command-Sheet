@@ -1,0 +1,35 @@
+Code refering to the table:
+\label{tab:table}
+See awesome Table~\ref{tab:table}.
+
+Code refering to the figure:
+\label{fig:fig1}
+See Figure \ref{fig:fig1}. Here is how you add footnotes.
+
+
+Code refering to the specific section:
+\label{sec:headings}
+in this sentence we are reffering to section \ref{sec:heading}.
+
+
+
+Referencing:
+
+Almost all scientific articles need references. To add these we can add to the references.bib file, which is found on the 
+left menu.
+There are many ways to get the bib version of a reference. One easy way is to use Zotero, which is a free tool for writing 
+bibliographies that has a chrome extension.
+
+
+\cite{kour2014real,kour2014fast} and see \cite{hadash2018estimate}.
+
+
+\begin{thebibliography}{1}
+
+\bibitem{kour2014real}
+George Kour and Raid Saabne.
+\newblock Real-time segmentation of on-line handwritten arabic script.
+\newblock In {\em Frontiers in Handwriting Recognition (ICFHR), 2014 14th
+  International Conference on}, pages 417--422. IEEE, 2014.
+
+\end{thebibliography}
